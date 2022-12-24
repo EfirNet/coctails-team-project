@@ -1,4 +1,4 @@
-### *Team* - "Dreaming-team"
+### *Team* - "Dreaming Team"
 ---
 1. **Anna Tsepilova** - *Team Lead*
 2. **Oleksandr Soldatchenko** - *Scrum Master*
