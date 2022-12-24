@@ -1,7 +1,7 @@
 ## *Team* - "Dreaming-team"
-#### Anna Tsepilova - *Team Lead*
-#### Oleksandr Soldatchenko - *Scrum Master*
-#### Olga Kaplunivska - *Frontend developer*
-#### Kulik Viktor - *Frontend developer*
-#### Anna Pohorielova - *Frontend developer*
-#### Denys Yefimov - *Frontend developer*
+1. **Anna Tsepilova** - *Team Lead*
+2. **Oleksandr Soldatchenko** - *Scrum Master*
+3. **Olga Kaplunivska** - *Frontend developer*
+4. **Kulik Viktor** - *Frontend developer*
+5. **Anna Pohorielova** - *Frontend developer*
+6. **Denys Yefimov** - *Frontend developer*
