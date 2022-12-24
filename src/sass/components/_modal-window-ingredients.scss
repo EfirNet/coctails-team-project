@@ -1,0 +1,148 @@
+.i-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: $primary-text-color-LT;
+  z-index: 102;
+  opacity: 1;
+  overflow: auto;
+  visibility: visible;
+  transition: opacity 250ms $cubic;
+}
+
+.i-backdrop--is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  & .modal-ingredients {
+    transform: translate(-50%, -50%) scale(0.9);
+  }
+}
+
+.modal-ingredients__btn-close {
+  position: absolute;
+  top: 23px;
+  right: 23px;
+  background-color: $primary-white-color;
+  border: 0;
+  cursor: pointer;
+
+  @media screen and (min-width: 768px) {
+    top: 19px;
+    right: 19px;
+  }
+  &:hover {
+    fill: $accent-color;
+  }
+
+  &:focus {
+    fill: $accent-color;
+  }
+}
+
+.modal-ingredients {
+  position: relative;
+  width: 320px;
+  min-height: 425px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px 20px;
+  background-color: $primary-white-color;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  z-index: 103;
+  // outline: 1px solid tomato;
+  @media screen and (min-width: 768px) {
+    width: 715px;
+    padding: 40px 28px 28px;
+    background-color: $white-color;
+  }
+}
+
+.modal-ingredients__title {
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 1.19;
+  color: $pagination-arrow-active;
+  margin-bottom: 20px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 28px;
+  }
+}
+
+.modal-ingredients__headline {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: $pagination-arrow-active;
+  margin-bottom: 20px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 40px;
+  }
+}
+
+.modal-ingredients__line {
+  @media screen and (min-width: 768px) {
+    display: block;
+    width: 715px;
+    height: 0;
+    margin-left: -28px;
+    margin-bottom: 28px;
+    border: 0.5px solid $accent-color;
+    background-color: $accent-color;
+  }
+}
+
+.modal-ingredients__text {
+  font-family: 'Poppins';
+  font-size: 16px;
+  line-height: 1.75;
+  color: $secondary-text-color;
+  margin-bottom: 28px;
+}
+
+.modal-ingredients__accent {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.75;
+  color: $pagination-arrow-active;
+  @media screen and (min-width: 768px) {
+    color: #000;
+  }
+}
+
+.modal-ingredients__list {
+  @extend %list;
+  margin-bottom: 32px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 40px;
+  }
+}
+
+.modal-ingredients__item {
+  font-family: 'Poppins';
+  font-size: 16px;
+  line-height: 1.63;
+  color: $secondary-text-color;
+}
+
+.modal-ingredients__item {
+  &:before {
+    content: '✶ ';
+    color: $pagination-arrow-active;
+  }
+}
+
+.modal__btn {
+  background-color: $accent-color;
+  @media screen and (min-width: 768px) {
+    margin-left: auto;
+  }
+}
