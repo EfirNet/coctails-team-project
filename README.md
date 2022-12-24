@@ -1,4 +1,5 @@
-`## *Team* - "Dreaming-team"`
+### *Team* - "Dreaming-team"
+---
 1. **Anna Tsepilova** - *Team Lead*
 2. **Oleksandr Soldatchenko** - *Scrum Master*
 3. **Olga Kaplunivska** - *Frontend developer*
