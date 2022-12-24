@@ -5,3 +5,4 @@
 4. **Kulik Viktor** - *Frontend developer*
 5. **Anna Pohorielova** - *Frontend developer*
 6. **Denys Yefimov** - *Frontend developer*
+---
